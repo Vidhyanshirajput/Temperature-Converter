@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 27%;
+    top: 27%;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 36px;
+    box-shadow: 15px 15px 30px #a4a4a4,
+        -13px -13px 30px #ffffff;
+}
+
+label {
+    color: var(--primary-color);
+    font-size: 42px;
+    padding: 0px 110px;
+    margin: 29px 0;
+    border-radius: 36px;
+    box-shadow: inset 15px 15px 30px #a4a4a4,
+        inset -13px -13px 30px #ffffff;
+    position: absolute;
+    top: 9%;
+    left: 23%;
+    height: 13%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#temp {
+    position: absolute;
+    width: 21%;
+    height: 10%;
+    color: var(--primary-color);
+    box-shadow: inset 15px 15px 30px #a4a4a4,
+        inset -13px -13px 30px #ffffff;
+    border-radius: 36px;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    display: flex;
+    left: 28%;
+    top: 35%
+}
+
+#temp_diff {
+    position: absolute;
+    width: 21%;
+    height: 10%;
+    color: var(--primary-color);
+    box-shadow: inset 15px 15px 30px #a4a4a4,
+        inset -13px -13px 30px #ffffff;
+    border-radius: 36px;
+    margin-bottom: 5%;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    display: flex;
+    top: 35%;
+    right: 28%;
+}
+
+#submit {
+    position: absolute;
+    width: 21%;
+    height:10%;
+    border-radius: 5px;
+    margin: 149px 0 20px 0;
+    font-size: 32px;
+    padding: 11px 2px;
+    transition: all 0.5s ease;
+    background-color: #e0e0e0;
+    border-radius: 36px;
+    box-shadow: 15px 15px 30px #a4a4a4,
+        -13px -13px 30px #ffffff;
+        display: flex;
+  top: 37%;
+  right: 51%;
+}
+
+.clear{
+    position: absolute;
+    width: 21%;
+    height: 10%;
+    background-color: #e0e0e0;
+    box-shadow: 15px 15px 30px #a4a4a4,
+    -13px -13px 30px #ffffff;
+    border-radius: 36px;
+    margin-bottom: 5%;
+    padding: 1%;
+    font-size: 32px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    display: flex;
+    top: 57%;
+    right: 28%;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#resultc {
+    font-size: 40px;
+    background-color: black;
+    border: #a4a4a4;
+    box-shadow: 15px 15px 30px #a4a4a4,
+        -13px -13px 30px #ffffff;
+    color: white;
+    width: 22%;
+    border-radius: 5px;
+    font-size: 32px;
+    padding: 20px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 38%;
+    bottom: 12%;
+}
